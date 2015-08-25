@@ -1,0 +1,42 @@
+   21  wget -q -O - https://raw.github.com/skycocker/chromebrew/master/install.sh | bash
+   31  git
+   41  grep git sn_Toshiba_CB2_crouton_install_01AUG15-v0.02.txt 
+   42  git config --global rac3rx "Hammond, C.J."
+   47  git config --global user.name "Chris Hammond"
+   48  git config --global user.email "chris.hammond.tx@gmail.com"
+   49  git config --global credential.helper cache
+   50  git config --global credential.helper 'cache --timeout=3600'
+   52  git config --global core.editor vim
+   53  git status
+   55  git add .
+   56  git config --global push.default simple
+   59  history > git.txt
+   60  git add .
+   61  git config --global user.name "Chris Hammond"
+   62     48  git config --global user.email "chris.hammond.tx@gmail.com"
+   63     49  git config --global credential.helper cache
+   64     50  git config --global credential.helper 'cache --timeout=3600'
+   66     52  git config --global core.editor vim
+   67     53  git status
+   69     55  git add .
+   70     56  git config --global push.default simple
+   79  grep git sn_Toshiba_CB2_crouton_install_01AUG15-v0.02.txt 
+   80  cat > ../sn_git.txt
+   81  vim ../sn_git.txt 
+   82  cat ../sn_git.txt 
+   84  git init
+   85  git add *
+   86  git commit -m "1st Commit Toshiba CB2"
+   87  git status
+   89  ssh -T git@github.com
+   90  history > ../git.txt
+   91  history | grep git
+   92  git remote add origin https://github.com/rac3rx/TB2_crouton_git
+   93  git push -u origin master
+   94  git pull -u origin master
+   95  git push -u origin master
+   96  history | grep git
+   97  history | grep git > ../sn_git.txt 
+
+dot config
+.git/config
